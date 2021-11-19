@@ -1,0 +1,47 @@
+#movie-form {
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    
+}
+input[type="text"] {
+    margin-bottom: 1rem;
+}
+input[type="number"] {
+    margin-bottom: 1rem;
+}
+
+button[type="submit"] {
+    margin-bottom: 2rem;
+}
+ 
+#select {
+    display: flex;
+    flex-direction: column;
+    width: 10vw;
+}
+
+.outside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}
+
+.inside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.movie {
+    margin-bottom: 1rem;
+    font-size: 30px;
+}
+
+.rate {
+    margin-bottom: 1rem;
+    font-size: 25px;
+}
